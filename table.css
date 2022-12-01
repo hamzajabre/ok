@@ -1,0 +1,20 @@
+table{
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 2px;
+    border-collapse: collapse;
+   
+}
+td,th{
+    border:thin solid;
+    width: 30%;
+    border-width: 2px;
+}
+
+caption{
+    color: blueviolet;
+}
+th{
+    background-color: rgb(27, 163, 216);
+    padding: 5px;
+}
