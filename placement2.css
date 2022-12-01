@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+.a{
+    height: 250px;
+    width: 400px;
+    background-color: rgb(197, 194, 194);
+    display: block;
+    justify-content: center;
+    border: black solid;
+    margin: auto;
+    padding: 30px;
+    
+}
