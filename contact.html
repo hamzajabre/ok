@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css" />
+    <link rel="stylesheet" href="responsive.css" media="only screen and (max-width:320px)">
+   
+</head>
+<body>
+    <header>
+        <div class="b">
+         <img src="banniére.jpg">
+        </div>
+        
+        <h1>Bienvenue sur ma page</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">index.html</a></li>
+                <li><a href="Blog#">article</a></li>
+                <li><a href="Galerie">rien</a></li>
+                <li><a href="Contact">contact.html</a></li>
+            </ul>
+        </nav>
+           
+
+    </header>
+    <section>
+      <form method="post" action="formulaire.php">
+         <fieldset>
+            <legend>Information</legend>
+         
+         <div>
+            <label for="Nom">Nom:*</label>
+            <input type="text" name="nom" placeholder="ex:jacques" minlength="2" maxlength="20" id="nom"/><br>
+            <label for="email">E-mail:*</label>
+            <input type="email" name="email" placeholder="EX:monMail@fai.com" id="email"><br>
+            <label for="commentaire">commentaire:</label><br>
+            <textarea name="commentaire"cols="70" rows="10" placeholder="laisser un commentaire">laisser un commentaire</textarea><br>
+            <input type="checkbox" checked id="checkbox"/>
+            <label for="checkbox">ne fonctionne pas</label><br>
+            <input type="submit" value="Executer"/>
+            <input type="reset" value="Reset"/>
+         </div>
+         </fieldset>
+     </form>
+    </section>
+    <footer>
+        <ul>
+            <li><a href="adresse1">adresse1</a></li>
+            <li><a href="adresse2">adresse2</a></li>
+            <li><a href="adresse3">adresse3</a></li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
